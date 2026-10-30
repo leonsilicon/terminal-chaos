@@ -1,0 +1,19 @@
+{
+  "name": "terminal-chaos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A wall of real tmux panes streaming simulated agent activity.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "start": "node src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test src/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^7.0.2"
+  }
+}
